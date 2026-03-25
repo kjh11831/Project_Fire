@@ -79,7 +79,7 @@ namespace Project_Fire
                             conditionCount = 0;
                             int thresholdCO2 = 800;
                             int thresholdTemp = 60;
-                            int flameValue = 0;
+                            int flameValue = 1;
 
                             if (double.TryParse(data.CO2, out double co2) && co2 >= thresholdCO2)
                             {
@@ -180,8 +180,16 @@ namespace Project_Fire
                         C802.BackColor = co2Value2 >= 800 ? System.Drawing.Color.Red : System.Drawing.Color.Green;
                         T801.BackColor = tempValue1 >= 60 ? System.Drawing.Color.Red : System.Drawing.Color.Green;
                         T802.BackColor = tempValue2 >= 60 ? System.Drawing.Color.Red : System.Drawing.Color.Green;
-                        labelArduino1.Text = $"801호\nCO2: {co2Value1:F1} ppm\nTemp: {tempValue1:F1} °C\nFlame: {(arduino1Data.Flame == "1" ? "화재 감지!!" : "화재 감지 없음")}";
-                        labelArduino2.Text = $"802호\nCO2: {co2Value2:F1} ppm\nTemp: {tempValue2:F1} °C\nFlame: {(arduino2Data.Flame == "1" ? "화재 감지!!" : "화재 감지 없음")}";
+                        labelArduino1.Text = $"801호\n" +
+                                             $"CO2: {double.Parse(arduino1Data.CO2):F1} ppm\n" +
+                                             $"Temp: {double.Parse(arduino1Data.Temperature):F1} °C\n" +
+                                             $"Flame: {(arduino1Data.Flame == "1" ? "불꽃 감지!!" : "정상")}";
+
+                        // 802호 표시
+                        labelArduino2.Text = $"802호\n" +
+                                             $"CO2: {double.Parse(arduino2Data.CO2):F1} ppm\n" +
+                                             $"Temp: {double.Parse(arduino2Data.Temperature):F1} °C\n" +
+                                             $"Flame: {(arduino2Data.Flame == "1" ? "불꽃 감지!!" : "정상")}";
                     }
                 });
             }
