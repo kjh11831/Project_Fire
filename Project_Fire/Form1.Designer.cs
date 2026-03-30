@@ -56,8 +56,11 @@
             // 
             // Fire_detector
             // 
+            this.Fire_detector.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.Fire_detector.Image = global::Project_Fire.Properties.Resources.화재감지기;
-            this.Fire_detector.Location = new System.Drawing.Point(71, 66);
+            this.Fire_detector.Location = new System.Drawing.Point(69, 58);
             this.Fire_detector.Name = "Fire_detector";
             this.Fire_detector.Size = new System.Drawing.Size(246, 234);
             this.Fire_detector.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;

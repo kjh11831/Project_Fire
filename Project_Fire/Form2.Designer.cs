@@ -51,6 +51,9 @@
             // 
             // textBoxFire2
             // 
+            this.textBoxFire2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textBoxFire2.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBoxFire2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxFire2.Font = new System.Drawing.Font("맑은 고딕", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
@@ -77,6 +80,9 @@
             // 
             // textBoxFire1
             // 
+            this.textBoxFire1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textBoxFire1.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBoxFire1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxFire1.Font = new System.Drawing.Font("맑은 고딕", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
@@ -113,6 +119,9 @@
             // 
             // F801
             // 
+            this.F801.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.F801.Location = new System.Drawing.Point(25, 225);
             this.F801.Name = "F801";
             this.F801.Size = new System.Drawing.Size(42, 20);
@@ -122,6 +131,9 @@
             // 
             // F802
             // 
+            this.F802.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.F802.Location = new System.Drawing.Point(565, 225);
             this.F802.Name = "F802";
             this.F802.Size = new System.Drawing.Size(42, 20);
@@ -131,6 +143,9 @@
             // 
             // apart
             // 
+            this.apart.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.apart.Location = new System.Drawing.Point(321, 107);
             this.apart.Name = "apart";
             this.apart.Size = new System.Drawing.Size(226, 216);
@@ -140,6 +155,9 @@
             // 
             // T802
             // 
+            this.T802.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.T802.Location = new System.Drawing.Point(565, 198);
             this.T802.Name = "T802";
             this.T802.Size = new System.Drawing.Size(42, 20);
@@ -148,6 +166,9 @@
             // 
             // C802
             // 
+            this.C802.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.C802.Location = new System.Drawing.Point(565, 171);
             this.C802.Name = "C802";
             this.C802.Size = new System.Drawing.Size(42, 20);
@@ -156,6 +177,9 @@
             // 
             // T801
             // 
+            this.T801.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.T801.Location = new System.Drawing.Point(25, 198);
             this.T801.Name = "T801";
             this.T801.Size = new System.Drawing.Size(42, 20);
@@ -164,6 +188,9 @@
             // 
             // C801
             // 
+            this.C801.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.C801.Location = new System.Drawing.Point(25, 171);
             this.C801.Name = "C801";
             this.C801.Size = new System.Drawing.Size(42, 20);
